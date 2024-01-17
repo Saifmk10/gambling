@@ -54,14 +54,15 @@ body{
     border: 2px solid transparent;
     border-radius: 15px;
 
-    display: grid;
-    justify-content: center;
+    display: block;
+    margin: auto;
 
-    margin-left: 115px;
-
+    transition: transform;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
 }
 #start:hover{
-    scale: 1.1;
+    transform: scale(1.1);
 }
 
 #newCard{
@@ -72,12 +73,14 @@ body{
     border: 2px solid transparent;
     border-radius: 15px;
 
-    display: grid;
-    justify-content: center;
-    
-    margin-left: 115px;
+    display: block;
+    margin: auto;
+
+    transition: transform;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
 
 }
 #newCard:hover{
-    scale: 1.1;
+    transform: scale(1.1);
 }
